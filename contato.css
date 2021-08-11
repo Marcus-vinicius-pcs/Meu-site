@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+body {
+	color:#ffffff;
+}
+
+header#cabecalho{
+	height: 50px;
+	border-bottom: 1px #ffffff solid;
+}
+
+div#interface {
+	background-color: #000000;
+}
+
+section#contato{
+	display: block;
+	margin-top: 70px;
+	margin-bottom: 250px;
+}
+
+ul.contatos{
+	display: block;
+}
+
+ul.contatos li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+ul.contatos li a:hover {
+	text-decoration: underline;
+}
