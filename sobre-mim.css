@@ -1,0 +1,80 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+
+body{
+	font-family: 'Roboto Mono';
+}
+
+header#cabecalho{
+	height: 50px;
+	background-color: #000000;
+	font-family: 'Arial', sans-serif;
+}
+
+section#corpo-sobre-mim{
+	display:block;
+	color: #000000;
+	margin: 20px;
+}
+
+ul#conteudo{
+	margin: auto;
+	list-style: none;
+	padding: 50px;
+}
+
+ul#conteudo li{
+	float: left;
+	width: 350px;
+	height: 350px;
+	margin: 10px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,.4);
+	padding: 10px;
+	background-color: #dddddd;
+}
+
+ul#conteudo li a{
+	text-decoration: none;
+	color: #000000;
+}
+
+ul#conteudo li a:hover{
+	text-decoration: underline;
+}
+
+ul#conteudo li h1{
+	font-size: 25pt;
+}
+
+ul#conteudo li#conhecimentos{
+	background-color: #000000;
+	color: #ffffff;
+}
+
+ul#conteudo li#formacao{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+article#apresentacao{
+	margin: auto;
+	width: 800px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,.6);
+	padding: 10px;
+	background-color: #dddddd;
+
+}
+
+h1{
+	font-size: 50pt;
+	text-align: center;
+	font-family: 'Titillium Web';
+
+}
+
+footer {
+	font-family: 'Arial', sans-serif;
+}
+

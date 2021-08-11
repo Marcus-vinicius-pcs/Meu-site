@@ -1,0 +1,68 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+header#cabecalho{
+	height: 50px;
+	background-color: #000000;
+	font-family: 'Arial', sans-serif;
+}
+
+section#corpo-portifolio{
+	display: block;
+	margin-top: 20px;
+	color: #000000;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Roboto Mono', sans-serif;
+	font-size: 50pt;
+	margin-bottom: 0px;
+}
+
+h2{
+	text-align: center;
+	font-family: 'Roboto Mono', sans-serif;
+	color: #606060;
+	font-size: 18pt;
+	margin-top: 0px;
+}
+
+h1.lista{
+	text-align: left;
+	font-size: 20pt;
+	margin-left: 15px;
+}
+
+ul.lista_conteudo {
+	display: block;
+	list-style: none;
+}
+
+ul.lista_conteudo li a {
+	text-decoration: none;
+	color: #000000;
+}
+
+ul.lista_conteudo li a:hover{
+	text-decoration: underline;
+}
+
+ul.lista_conteudo li{
+	background-color: #dddddd;
+	border-radius: 10px;
+	padding: 5px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,.8);
+	margin-left: -30px;
+	margin-right: 10px;
+	font-size: 15pt;
+	font-family: 'Titillium Web', sans-serif;
+	margin-bottom: 10px;
+}
+
+ul.lista_conteudo li p{
+	font-size: 15pt;
+	font-family: 'Titillium Web', sans-serif;
+}
+
